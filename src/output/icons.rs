@@ -47,7 +47,7 @@ impl Icons {
     const FOLDER_NPM: char      = '\u{e5fa}';  // 
     const FOLDER_OCAML: char    = '\u{e67a}';  // 
     const FOLDER_OPEN: char     = '\u{f115}';  // 
-    const FILE_UNKNOW: char     = '\u{f086f}'; // 󰡯
+    const FILE_UNKNOW: char     = '\u{f29c}';  // 
     const FONT: char            = '\u{f031}';  // 
     const FREECAD: char         = '\u{f336}';  // 
     const GIMP: char            = '\u{f338}';  // 

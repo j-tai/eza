@@ -352,3 +352,8 @@ gen_test_dir:
     nix build -L ./#trydump
     find result/dump -type f \( -name "*.stdout" -o -name "*.stderr" \) -exec sh -c 'base=$(basename {}); if [ -e "tests/ptests/${base%.*}.toml" ]; then cp {} tests/ptests/; fi' \;
 
+pull:
+    git switch main
+    git pull --tags upstream main
+    git push --tags --set-upstream origin main
+    git switch jtai
